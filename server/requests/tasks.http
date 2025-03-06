@@ -1,0 +1,24 @@
+### GET all tasks
+GET http://127.0.0.1:5000/api/tasks
+Content-Type: application/json
+
+### Add a new task
+POST http://127.0.0.1:5000/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn SQLAlchemy"
+}
+
+### Update a task
+PUT http://127.0.0.1:5000/api/tasks/1
+Content-Type: application/json
+
+{
+  "title": "Learn Flask and SQLAlchemy",
+  "is_completed": true
+}
+
+### Delete a task
+DELETE http://127.0.0.1:5000/api/tasks/1
+Content-Type: application/json
