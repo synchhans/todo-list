@@ -32,13 +32,13 @@ Sebelum menjalankan aplikasi ini, pastikan Anda telah menginstal:
 Clone repository ini ke lokal Anda:
 
 ```bash
-git clone <link-repository>
+git clone https://github.com/synchhans/todo-list.git
 cd todo-list
 ```
 
 ### 2. Jalankan Docker Compose
 
-Pastikan Docker sudah terinstal di sistem Anda. Kemudian jalankan perintah berikut untuk membangun dan menjalankan aplikasi:
+Pastikan Docker sudah terinstal di sistem Anda. Kemudian buka terminal dan jalankan perintah berikut untuk membangun dan menjalankan aplikasi:
 
 ```bash
 docker-compose up --build
@@ -51,7 +51,7 @@ Perintah ini akan:
 
 ### 3. Terapkan Migrasi Database
 
-Setelah semua container berjalan, Anda perlu menerapkan migrasi database secara manual. Ikuti langkah-langkah berikut:
+Setelah semua container berjalan, Anda perlu menerapkan migrasi database secara manual.Buka Terminal baru dan ikuti langkah-langkah berikut:
 
 1. Ambil ID container backend dengan perintah:
 
