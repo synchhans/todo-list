@@ -7,6 +7,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 190304
       POSTGRES_DB: todolist
+      TZ: Asia/Jakarta
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:

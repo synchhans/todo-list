@@ -13,7 +13,7 @@ class Task(db.Model):
         return {
             "id": self.id,
             "title": self.title,
-            "created_at": self.created_at.isoformat(),
+            "created_at": self.created_at.strftime("%d %b %Y %H:%M"),
             "is_completed": self.is_completed,
         }
 
